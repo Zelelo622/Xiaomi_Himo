@@ -362,6 +362,11 @@ a {
   cursor: pointer;
 }
 
+.form__btn-box button.active {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
 .gray-btn {
   border: none;
   background: #6f6f6f;
@@ -416,4 +421,56 @@ a {
   border-radius: 50%;
   top: 12px;
   left: 0;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #131313;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.footer__link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.footer__social img {
+  width: 28px;
+  height: 28px;
+}
+
+.footer__social-link + .footer__social-link {
+  margin-left: 26px;
+}
+
+.foote__contacts {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+}
+
+.foote__contacts img {
+  margin-right: 10px;
+}
+
+.footer__contacts-link {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.footer__contacts-link + .footer__contacts-link {
+  margin-top: 10px;
 }
