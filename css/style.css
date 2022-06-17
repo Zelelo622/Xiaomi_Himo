@@ -261,3 +261,18 @@ a {
 .characteristic__img {
   align-self: center;
 }
+
+/*slider*/
+
+.slider {
+  padding-bottom: 50px;
+}
+
+.slider__items .slick-dots {
+  top: 0;
+  left: 0;
+}
+
+.slider__item {
+  padding-left: 50px;
+}
