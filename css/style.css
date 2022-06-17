@@ -207,3 +207,57 @@ a {
   line-height: 120%;
   max-width: 450px;
 }
+
+/*characteristic*/
+
+.characteristic {
+  padding-bottom: 150px;
+}
+
+.characteristic__head {
+  margin: 0 0 40px;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.characteristic__inner {
+  display: flex;
+}
+
+.characteristic__items {
+  flex-basis: 570px;
+  margin-right: 60px;
+}
+
+.characteristic__list + .characteristic__list {
+  padding-top: 30px;
+}
+
+.characteristic__title {
+  padding: 2px 0 3px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #131313;
+}
+
+.characteristic__line {
+  display: flex;
+  padding-top: 5px;
+}
+
+.characteristic__name {
+  flex-basis: 285px;
+  padding-right: 25px;
+}
+
+.characteristic__descr {
+  flex-basis: 285px;
+}
+
+.characteristic__img {
+  align-self: center;
+}
