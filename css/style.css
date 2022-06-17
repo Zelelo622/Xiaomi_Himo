@@ -28,6 +28,10 @@ a {
 
 /*header*/
 
+.header {
+  padding-bottom: 100px;
+}
+
 .header__nav {
   display: flex;
   justify-content: space-between;
@@ -60,7 +64,7 @@ a {
 
 /*bike*/
 .bike {
-  padding: 100px 0 150px;
+  padding-bottom: 150px;
 }
 
 .bike__inner {
@@ -165,4 +169,41 @@ a {
 
 .slick-active button {
   background-color: #ff4040;
+}
+
+/*info*/
+
+.info {
+  padding-bottom: 150px;
+}
+
+.info__inner {
+  display: flex;
+}
+
+.info__item-img {
+  margin-right: 60px;
+  max-width: 570px;
+  object-fit: cover;
+}
+
+.info__content {
+  max-width: 490px;
+}
+
+.info__item + .info__item {
+  padding-top: 50px;
+}
+
+.info__item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.info__item-text {
+  line-height: 120%;
+  max-width: 450px;
 }
