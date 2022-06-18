@@ -263,8 +263,7 @@
   }
 
   .price__item {
-    top: 380px;
-    right: 40px;
+    right: 0;
   }
 
   .price__item-sum {
@@ -290,12 +289,6 @@
   .price__item {
     top: 380px;
     right: -10px;
-  }
-
-  .price__item-sum {
-    font-size: 18px;
-    top: -25px;
-    right: 120px;
   }
 }
 
