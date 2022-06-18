@@ -408,16 +408,21 @@ a {
   background-color: #ff4040;
 }
 
-.price__item {
+.price__items {
   position: relative;
+}
+
+.price__item {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .price__item-sum {
   position: absolute;
   font-size: 32px;
   top: 30px;
-  left: 0;
-  right: 0;
+  right: 400px;
   width: 220px;
   height: 100px;
   display: flex;
