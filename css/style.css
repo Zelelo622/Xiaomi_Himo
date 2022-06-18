@@ -122,6 +122,10 @@ a {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 1.1em;
+  transition: all 0.3s;
+}
+.bike__link:hover {
+  background-color: #ff4040;
 }
 
 .bike-slider .slick-dots {
@@ -389,6 +393,7 @@ a {
 }
 
 .form__btn {
+  border: none;
   display: inline-block;
   background-color: #131313;
   color: #fff;
@@ -397,6 +402,10 @@ a {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 1.1em;
+  transition: all 0.3s;
+}
+.form__btn:hover {
+  background-color: #ff4040;
 }
 
 .price__item {
