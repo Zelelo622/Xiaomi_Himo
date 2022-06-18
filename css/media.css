@@ -43,11 +43,37 @@
   .info__item-text {
     max-width: 100%;
   }
+
+  .characteristic {
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 990px) {
   .nav {
     margin-right: 0;
+  }
+
+  .characteristic__inner {
+    flex-wrap: wrap;
+  }
+
+  .characteristic__img {
+    order: -1;
+    width: 100%;
+  }
+
+  .characteristic__items {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  .characteristic__name {
+    flex-basis: 50%;
+  }
+
+  .characteristic__descr {
+    flex-basis: 50%;
   }
 }
 
