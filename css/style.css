@@ -36,10 +36,16 @@ a {
   padding-bottom: 100px;
 }
 
-.header__nav {
+.header__inner {
+  padding-top: 3px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  width: 160px;
+  height: 100px;
 }
 
 .nav {
@@ -57,7 +63,7 @@ a {
 
 .nav__link {
   text-transform: uppercase;
-  padding: 40px 20px;
+  padding: 42px 20px;
   transition: all 0.3s;
   color: #131313;
 }
