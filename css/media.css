@@ -4,7 +4,7 @@
   }
 
   .bike {
-    padding-bottom: 120px;
+    padding-bottom: 20px;
   }
 
   .bike__column {
@@ -26,6 +26,22 @@
 
   .bike__link {
     margin-top: 30px;
+  }
+
+  .info {
+    padding-bottom: 50px;
+  }
+
+  .info__item-img {
+    display: none;
+  }
+
+  .info__content {
+    max-width: 100%;
+  }
+
+  .info__item-text {
+    max-width: 100%;
   }
 }
 
@@ -78,6 +94,10 @@
 
   .nav__link {
     padding: 25px 20px;
+  }
+
+  .info__item + .info__item {
+    padding-top: 25px;
   }
 }
 
