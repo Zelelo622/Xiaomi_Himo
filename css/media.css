@@ -47,6 +47,10 @@
   .characteristic {
     padding-bottom: 50px;
   }
+
+  .slider__item img {
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 990px) {
@@ -74,6 +78,10 @@
 
   .characteristic__descr {
     flex-basis: 50%;
+  }
+
+  .slider__item img {
+    height: 400px;
   }
 }
 
@@ -125,6 +133,14 @@
   .info__item + .info__item {
     padding-top: 25px;
   }
+
+  .slider__item {
+    padding-left: 10px;
+  }
+
+  .slider__item img {
+    height: 250px;
+  }
 }
 
 @media (max-width: 475px) {
@@ -141,6 +157,10 @@
 
   .nav__link {
     padding: 25px 0px;
+  }
+
+  .slider {
+    display: none;
   }
 }
 
