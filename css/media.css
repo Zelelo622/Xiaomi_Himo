@@ -1,4 +1,21 @@
 @media (max-width: 1140px) {
+  .nav__link,
+  .bike__link,
+  .form__btn {
+    transition: all 0s;
+  }
+
+  .nav__link:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+
+  .bike__link:hover,
+  .form__btn:hover {
+    background-color: #131313;
+    color: #fff;
+  }
+
   .header {
     padding-bottom: 0;
   }
@@ -140,6 +157,25 @@
 
   .slider__item img {
     height: 250px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer__inner {
+    display: block;
+    height: auto;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .footer__social {
+    padding: 15px 0;
+  }
+
+  .foote__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
